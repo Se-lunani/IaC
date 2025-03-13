@@ -41,7 +41,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
 ```
-### Deploy Script (`deploy.sh`)
+### deploy-IaC (`deploy.sh`)
 
 ```sh
 ##!/usr/bin/env bash
@@ -62,7 +62,7 @@ fi
 echo "CloudFormation stack deployed successfully."
 
 ```
-### Delete Script (`delete.sh`)
+### delete-IaC (`delete.sh`)
 
 ```sh
 #!/usr/bin/env bash
