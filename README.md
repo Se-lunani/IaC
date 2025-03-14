@@ -83,4 +83,27 @@ fi
 echo "CloudFormation stack deleted successfully."
 ```
 
-### END
+### END ---1
+
+# Terraform S3 Bucket Project
+
+In addition to the CloudFormation project, I also created a simple S3 bucket using **Terraform**.
+
+## Steps
+
+1. Installed **Terraform** on my WSL environment.  
+2. Created a **Terraform** folder and added two files:  
+   - `main.tf`  
+   - `s3.tf`  
+3. Initialized Terraform:  
+   terraform init
+4. Planned the deployment
+  terraform plan
+5. Applied the configuration to create the S3 bucket
+  terraform apply
+6. Destroyed the infrastructure when no longer needed
+  terraform destroy
+
+
+
+
